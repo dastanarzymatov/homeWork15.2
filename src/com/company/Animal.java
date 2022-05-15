@@ -1,13 +1,15 @@
+package com.company;
+
 public class Animal {
     public Animal() {
     }
 
     public void eat(){
-        System.out.println("Animal is eating.");
+        System.out.println("com.company.Animal is eating.");
     }
 
     @Override
     public String toString() {
-        return "Animal{}";
+        return "com.company.Animal{}";
     }
 }
